@@ -9,12 +9,15 @@ namespace TestFrameworks_MSTest
         [TestMethod]
         public void TestAdd()
         {
+            // Arange
             int expected = 10;
             int first = 4;
             int second = 6;
 
+            // Act
             int actual = Program.Add(first, second);
 
+            // Assert
             Assert.AreEqual(expected, actual);
         }
 

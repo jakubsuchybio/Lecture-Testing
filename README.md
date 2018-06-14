@@ -13,6 +13,7 @@ Firstly some knowledge base: https://www.tutorialspoint.com/software_engineering
 - The great testing pyramid
 - Unit tests
 	- Arrange -> Act -> Assert
+	- Mocking
 - Property based tests
 - TDD
 	- Perfect world
@@ -31,8 +32,12 @@ Firstly some knowledge base: https://www.tutorialspoint.com/software_engineering
 # Demos:
 - Test frameworks
 - TDD
+- Moq
 - Property based tests
 - BDD
-- Test suite as specification
-- UI test
+- Test suite as specification http://gasparnagy.com/2017/04/specflow-without-code-behind-files/
 - F# as a cherry on top for BDD
+	```
+	let ``When 2 is added to 2 expect 4``() =
+		Assert.AreEqual(4, 2+2)
+	```

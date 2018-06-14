@@ -5,7 +5,7 @@ Firstly some knowledge base: https://www.tutorialspoint.com/software_engineering
 - How tests work under cover
 	- From code, through test framework into test discovery and test runner to test explorer
 - Test frameworks:
-	- Table comparison
+	- Table comparison https://xunit.github.io/docs/comparisons
 	- MSTest
 	- XUnit
 	- NUnit
